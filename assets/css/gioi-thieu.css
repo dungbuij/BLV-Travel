@@ -1,0 +1,50 @@
+/* Trang Giới thiệu BLV Travel
+ * Dùng chung token, header, hero, thẻ, form… từ tour-detail.css; file này chỉ bổ sung khối riêng.
+ */
+
+/* ============ VỀ CHÚNG TÔI ============ */
+.story { display: grid; gap: 32px; align-items: start; }
+.story-text h2 { font-size: clamp(1.6rem, 4.5vw, 2.4rem); font-weight: 800; color: var(--green); margin-bottom: 14px; }
+.story-text p:not(.eyebrow) { color: var(--muted); margin-bottom: 14px; }
+.story-points { display: grid; gap: 10px; margin-top: 6px; }
+.story-points li { display: flex; gap: 10px; font-weight: 600; }
+.story-points li::before { content: "✓"; flex: none; width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; background: var(--green-50); color: var(--green-2); font-size: .85rem; }
+
+.offices { display: grid; gap: 16px; }
+.office { padding: 22px 20px; border-left: 4px solid var(--gold); }
+.office h3 { font-size: 1.1rem; color: var(--green); margin-bottom: 8px; }
+.office p { color: var(--muted); font-size: .93rem; }
+.office a { color: var(--green-2); font-weight: 700; }
+.office-meta { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.office-meta span { font-size: .78rem; padding: 3px 10px; border-radius: 999px; background: var(--gold-50); color: var(--gold-2); font-weight: 600; }
+
+/* ============ TOUR NỔI BẬT ============ */
+.filter-tabs { justify-content: center; }
+.filter-tabs .tab { flex: 0 0 auto; }
+.tour-card .hl-media { display: block; }
+.tour-card h3 a:hover { color: var(--green-2); }
+.tour-price { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; margin-top: auto; padding-top: 12px; border-top: 1px dashed var(--line); }
+.tour-price small { display: block; color: var(--muted); font-size: .78rem; }
+.tour-price del { color: var(--muted); font-size: .85rem; margin-right: 6px; }
+.tour-price b { font-size: 1.25rem; color: var(--gold-2); }
+.tour-price .btn { min-height: 40px; padding: 8px 16px; font-size: .9rem; }
+.hl-card[hidden] { display: none; }
+.view-all { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 32px; }
+
+/* ============ DỊCH VỤ ============ */
+.svc-card { padding: 26px 22px; display: flex; flex-direction: column; gap: 12px; transition: transform .3s var(--ease), box-shadow .3s; }
+.svc-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+.svc-card h3 { font-size: 1.15rem; }
+.svc-card > p { color: var(--muted); font-size: .93rem; }
+.svc-card .pkg-list { margin-bottom: 4px; }
+.svc-card .btn { margin-top: auto; }
+
+/* ============ RESPONSIVE ============ */
+@media (min-width: 640px) {
+  .offices { grid-template-columns: 1fr 1fr; }
+}
+
+@media (min-width: 900px) {
+  .story { grid-template-columns: 1.2fr 1fr; gap: 56px; }
+  .offices { grid-template-columns: 1fr; }
+}

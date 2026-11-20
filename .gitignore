@@ -1,0 +1,20 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/*
+!.vscode/settings.json
+.idea/
+
+# Node (nếu dùng công cụ sau này)
+node_modules/
+dist/
+
+# Claude Code – cấu hình cá nhân
+.claude/settings.local.json
+
+# Môi trường
+.env
+*.log
