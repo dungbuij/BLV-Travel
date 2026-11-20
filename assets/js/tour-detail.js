@@ -9,7 +9,8 @@
   if (!T) { console.warn('Thiếu dữ liệu tour (window.BLV_TOUR).'); return; }
 
   /* ================= THƯ VIỆN BIỂU TƯỢNG ================= */
-  const IMG = (id, w = 900) => `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=70`;
+  // `id` là mã ảnh Unsplash (photo-…) hoặc URL đầy đủ (ảnh Wikimedia Commons)
+  const IMG = (id, w = 900) => /^https?:\/\//.test(id) ? id : `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=70`;
 
   // Hình minh họa cho thẻ điểm nhấn khi chưa có ảnh thật
   const ART = {
@@ -145,6 +146,7 @@
             ? `<img src="${IMG(h.img, 700)}" alt="${esc(h.alt || h.name)}" width="700" height="438" loading="lazy">`
             : `<div class="hl-art" aria-hidden="true"><svg viewBox="0 0 24 24">${ART[h.art] || ART.mountain}</svg><span>${esc(h.name)}</span></div>`}
           <span class="hl-tag">${esc(h.tag)}</span>
+          ${h.credit ? `<a class="hl-credit" href="${esc(h.credit.url)}" target="_blank" rel="noopener">Ảnh: ${esc(h.credit.by)} · ${esc(h.credit.lic)}</a>` : ''}
         </div>
         <div class="hl-body">
           <h3>${esc(h.name)}</h3>

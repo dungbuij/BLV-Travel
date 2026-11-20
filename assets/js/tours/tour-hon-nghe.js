@@ -54,11 +54,11 @@ window.BLV_TOUR = {
 
   highlights: [
     { tag: 'Ngày 1', name: 'Bãi biển hoang sơ', desc: 'Nước biển trong xanh, bãi đá và cát vàng chưa bị khai thác du lịch.', img: 'photo-1473116763249-2faaef81ccda', alt: 'Biển xanh hoang sơ', meta: ['Tắm biển'] },
-    { tag: 'Ngày 1', name: 'Lặn ngắm san hô', desc: 'Lặn ống thở quanh các bãi đá ngầm, ngắm san hô và cá nhỏ nhiều màu.', art: 'wave', meta: ['Đồ lặn đã gồm'] },
-    { tag: 'Ngày 1', name: 'Câu mực đêm', desc: 'Lên thuyền câu mực cùng ngư dân, mực câu được chế biến ngay tại chỗ.', art: 'boat', meta: ['Dụng cụ câu đã gồm'] },
-    { tag: 'Ngày 1', name: 'BBQ & lửa trại', desc: 'Tiệc nướng hải sản tươi sống bên bờ biển, giao lưu lửa trại cùng cả đoàn.', art: 'food', meta: ['Hải sản tươi'] },
+    { tag: 'Ngày 1', name: 'Lặn ngắm san hô', desc: 'Lặn ống thở quanh các bãi đá ngầm, ngắm san hô và cá nhỏ nhiều màu.', img: 'photo-1583212292454-1fe6229603b7', alt: 'Đàn cá nhỏ bơi quanh rạn san hô', meta: ['Đồ lặn đã gồm'] },
+    { tag: 'Ngày 1', name: 'Câu mực đêm', desc: 'Lên thuyền câu mực cùng ngư dân, mực câu được chế biến ngay tại chỗ.', img: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Hakodate_squid_fishing_2005-08.JPG/960px-Hakodate_squid_fishing_2005-08.JPG', alt: 'Đèn thuyền câu mực sáng trên biển đêm', credit: { by: 'Geomr', lic: 'CC BY-SA 3.0', url: 'https://commons.wikimedia.org/wiki/File:Hakodate_squid_fishing_2005-08.JPG' }, meta: ['Dụng cụ câu đã gồm'] },
+    { tag: 'Ngày 1', name: 'BBQ & lửa trại', desc: 'Tiệc nướng hải sản tươi sống bên bờ biển, giao lưu lửa trại cùng cả đoàn.', img: 'photo-1475483768296-6163e08872a1', alt: 'Nhóm bạn quây quần bên lửa trại', meta: ['Hải sản tươi'] },
     { tag: 'Ngày 1', name: 'Chùa Hang Hòn Nghệ', desc: 'Ngôi chùa nằm trong hang đá ven biển, điểm ngắm hoàng hôn yên bình.', art: 'temple', meta: ['Tâm linh'] },
-    { tag: 'Ngày 2', name: 'Bình minh trên đảo', desc: 'Dậy sớm ngắm mặt trời lên giữa biển, đi bộ quanh làng chài trên đảo.', art: 'island', meta: ['Làng chài'] }
+    { tag: 'Ngày 2', name: 'Bình minh trên đảo', desc: 'Dậy sớm ngắm mặt trời lên giữa biển, đi bộ quanh làng chài trên đảo.', img: 'photo-1500375592092-40eb2168fd21', alt: 'Sóng biển lấp lánh trong nắng sớm', meta: ['Làng chài'] }
   ],
 
   days: [

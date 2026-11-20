@@ -48,6 +48,8 @@ Quy tắc:
 - `pricing.flights` chỉ khai báo cho tour nội địa bay tự túc; tour quốc tế và tour đi xe không có mục này (form tự ẩn ô vé máy bay).
 - `leadDays`: số ngày tối thiểu trước khởi hành (quốc tế cần thời gian làm visa: 15–30 ngày).
 - Thẻ điểm nhấn không có ảnh thật thì dùng `art` (biểu tượng minh họa) thay cho `img`.
+- `img` nhận mã ảnh Unsplash (`photo-…`) hoặc URL đầy đủ (ảnh Wikimedia Commons). Ảnh Wikimedia **bắt buộc**
+  kèm `credit: { by, lic, url }` (tác giả, giấy phép, trang mô tả ảnh) để hiện dòng ghi nguồn trên ảnh.
 
 ## Kiến trúc `index.html`
 

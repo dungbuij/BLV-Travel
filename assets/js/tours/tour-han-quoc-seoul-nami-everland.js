@@ -55,10 +55,10 @@ window.BLV_TOUR = {
   highlights: [
     { tag: 'Ngày 4', name: 'Cung Gyeongbok & Hanbok', desc: 'Cung điện lớn nhất triều Joseon, mặc Hanbok truyền thống và xem lễ đổi gác hoàng gia.', img: 'photo-1538485399081-7191377e8241', alt: 'Cung điện cổ tại Seoul', meta: ['Thuê Hanbok miễn phí'] },
     { tag: 'Ngày 2', name: 'Đảo Nami', desc: 'Hòn đảo của phim "Bản tình ca mùa đông" với hàng cây ngân hạnh và tùng thẳng tắp.', art: 'island', meta: ['Phà khứ hồi'] },
-    { tag: 'Ngày 3', name: 'Công viên Everland', desc: 'Công viên giải trí lớn nhất Hàn Quốc với tàu lượn gỗ T-Express và khu Safari xe buýt.', art: 'park', meta: ['Vé trọn ngày'] },
-    { tag: 'Ngày 4', name: 'Làng Bukchon Hanok', desc: 'Ngôi làng mái ngói truyền thống giữa lòng Seoul, điểm chụp ảnh nổi tiếng.', art: 'temple', meta: ['Điểm chụp ảnh'] },
-    { tag: 'Ngày 4', name: 'Tháp Namsan', desc: 'Ngắm toàn cảnh Seoul từ đỉnh núi Namsan, treo khóa tình yêu trên lan can.', art: 'tower', meta: ['Cáp treo'] },
-    { tag: 'Ngày 3', name: 'Phố Myeongdong', desc: 'Thiên đường mỹ phẩm và ẩm thực đường phố: bánh cá, tokbokki, gà rán Hàn Quốc.', art: 'shopping', meta: ['Mua sắm tự do'] }
+    { tag: 'Ngày 3', name: 'Công viên Everland', desc: 'Công viên giải trí lớn nhất Hàn Quốc với tàu lượn gỗ T-Express và khu Safari xe buýt.', img: 'photo-1513889961551-628c1e5e2ee9', alt: 'Đu quay trong công viên giải trí', meta: ['Vé trọn ngày'] },
+    { tag: 'Ngày 4', name: 'Làng Bukchon Hanok', desc: 'Ngôi làng mái ngói truyền thống giữa lòng Seoul, điểm chụp ảnh nổi tiếng.', img: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Bukchon-ro_11-gil_street_with_hanok_houses_in_Bukchon_Hanok_Village_Seoul.jpg/960px-Bukchon-ro_11-gil_street_with_hanok_houses_in_Bukchon_Hanok_Village_Seoul.jpg', alt: 'Con dốc giữa những ngôi nhà hanok ở làng Bukchon', credit: { by: 'Basile Morin', lic: 'CC BY-SA 4.0', url: 'https://commons.wikimedia.org/wiki/File:Bukchon-ro_11-gil_street_with_hanok_houses_in_Bukchon_Hanok_Village_Seoul.jpg' }, meta: ['Điểm chụp ảnh'] },
+    { tag: 'Ngày 4', name: 'Tháp Namsan', desc: 'Ngắm toàn cảnh Seoul từ đỉnh núi Namsan, treo khóa tình yêu trên lan can.', img: 'photo-1546874177-9e664107314e', alt: 'Tháp Namsan nổi bật trên nền Seoul về đêm', meta: ['Cáp treo'] },
+    { tag: 'Ngày 3', name: 'Phố Myeongdong', desc: 'Thiên đường mỹ phẩm và ẩm thực đường phố: bánh cá, tokbokki, gà rán Hàn Quốc.', img: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Myeongdong2.JPG/960px-Myeongdong2.JPG', alt: 'Phố mua sắm Myeongdong đông đúc', credit: { by: 'Kirakirameister', lic: 'CC BY-SA 3.0', url: 'https://commons.wikimedia.org/wiki/File:Myeongdong2.JPG' }, meta: ['Mua sắm tự do'] }
   ],
 
   days: [

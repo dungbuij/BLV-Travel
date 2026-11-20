@@ -54,11 +54,11 @@ window.BLV_TOUR = {
 
   highlights: [
     { tag: 'Ngày 2', name: 'Tháp Eiffel & sông Seine', desc: 'Chụp ảnh tháp Eiffel từ quảng trường Trocadéro và ngắm Paris lên đèn trên du thuyền sông Seine.', img: 'photo-1502602898657-3e91760cbb34', alt: 'Thủ đô Paris với tháp Eiffel', meta: ['Du thuyền Seine'] },
-    { tag: 'Ngày 3', name: 'Bảo tàng Louvre', desc: 'Kim tự tháp kính và bảo tàng nghệ thuật lớn nhất thế giới, nơi trưng bày bức họa Mona Lisa.', art: 'castle', meta: ['Vào trong ở gói Cao cấp'] },
-    { tag: 'Ngày 4', name: 'Thành phố hồ Lucerne', desc: 'Cầu gỗ Chapel cổ nhất Châu Âu, tượng Sư tử đá và phố cổ bên hồ nước trong xanh.', art: 'bridge', meta: ['Phố cổ Thụy Sĩ'] },
-    { tag: 'Ngày 5', name: 'Núi tuyết Titlis', desc: 'Cáp treo xoay Rotair lên độ cao 3.020m, đi cầu treo Cliff Walk và chơi tuyết quanh năm.', art: 'mountain', meta: ['Cáp treo xoay', 'Tuyết quanh năm'] },
-    { tag: 'Ngày 6', name: 'Venice – thành phố trên nước', desc: 'Quảng trường San Marco, cầu Rialto và những con kênh uốn lượn giữa các tòa nhà cổ.', art: 'boat', meta: ['Thuyền gondola ở gói Cao cấp'] },
-    { tag: 'Ngày 7', name: 'Đấu trường La Mã', desc: 'Colosseum gần 2.000 năm tuổi, đài phun nước Trevi và Vatican, quốc gia nhỏ nhất thế giới.', art: 'colosseum', meta: ['Rome & Vatican'] }
+    { tag: 'Ngày 3', name: 'Bảo tàng Louvre', desc: 'Kim tự tháp kính và bảo tàng nghệ thuật lớn nhất thế giới, nơi trưng bày bức họa Mona Lisa.', img: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/960px-Louvre_Museum_Wikimedia_Commons.jpg', alt: 'Kim tự tháp kính trước bảo tàng Louvre lúc đêm', credit: { by: 'Benh LIEU SONG (Flickr)', lic: 'CC BY-SA 3.0', url: 'https://commons.wikimedia.org/wiki/File:Louvre_Museum_Wikimedia_Commons.jpg' }, meta: ['Vào trong ở gói Cao cấp'] },
+    { tag: 'Ngày 4', name: 'Thành phố hồ Lucerne', desc: 'Cầu gỗ Chapel cổ nhất Châu Âu, tượng Sư tử đá và phố cổ bên hồ nước trong xanh.', img: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Luzern_Kapellbruecke.jpg/960px-Luzern_Kapellbruecke.jpg', alt: 'Cầu gỗ Kapellbrücke và tháp nước trên hồ Lucerne', credit: { by: 'Ikiwaner', lic: 'CC BY-SA 3.0', url: 'https://commons.wikimedia.org/wiki/File:Luzern_Kapellbruecke.jpg' }, meta: ['Phố cổ Thụy Sĩ'] },
+    { tag: 'Ngày 5', name: 'Núi tuyết Titlis', desc: 'Cáp treo xoay Rotair lên độ cao 3.020m, đi cầu treo Cliff Walk và chơi tuyết quanh năm.', img: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Titlis_W.jpg/960px-Titlis_W.jpg', alt: 'Đỉnh núi tuyết Titlis, Thụy Sĩ', credit: { by: 'CARLO FEDELE BARRI', lic: 'CC BY-SA 3.0', url: 'https://commons.wikimedia.org/wiki/File:Titlis_W.jpg' }, meta: ['Cáp treo xoay', 'Tuyết quanh năm'] },
+    { tag: 'Ngày 6', name: 'Venice – thành phố trên nước', desc: 'Quảng trường San Marco, cầu Rialto và những con kênh uốn lượn giữa các tòa nhà cổ.', img: 'photo-1514890547357-a9ee288728e0', alt: 'Kênh Grand Canal và nhà thờ Santa Maria della Salute, Venice', meta: ['Thuyền gondola ở gói Cao cấp'] },
+    { tag: 'Ngày 7', name: 'Đấu trường La Mã', desc: 'Colosseum gần 2.000 năm tuổi, đài phun nước Trevi và Vatican, quốc gia nhỏ nhất thế giới.', img: 'photo-1552832230-c0197dd311b5', alt: 'Đấu trường Colosseum ở Rome lúc hoàng hôn', meta: ['Rome & Vatican'] }
   ],
 
   days: [

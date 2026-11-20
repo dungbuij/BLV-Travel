@@ -54,11 +54,11 @@ window.BLV_TOUR = {
 
   highlights: [
     { tag: 'Ngày 4', name: 'Núi Phú Sĩ', desc: 'Biểu tượng của Nhật Bản, lên trạm 5 (khi thời tiết cho phép) và thăm làng cổ Oshino Hakkai.', img: 'photo-1490806843957-31f4c9a91c65', alt: 'Núi Phú Sĩ và hoa anh đào', meta: ['Trạm 5', 'Làng cổ'] },
-    { tag: 'Ngày 2', name: 'Kyoto nghìn năm', desc: 'Chùa Thanh Thủy Kiyomizu-dera, đền Fushimi Inari với hàng nghìn cổng torii đỏ, phố Gion.', art: 'temple', meta: ['Cố đô Nhật Bản'] },
-    { tag: 'Ngày 3', name: 'Lâu đài Osaka & Dotonbori', desc: 'Lâu đài cổ giữa công viên xanh và khu ẩm thực đường phố sôi động nhất Osaka.', art: 'castle', meta: ['Ẩm thực đường phố'] },
-    { tag: 'Ngày 4', name: 'Tắm onsen & mặc yukata', desc: 'Nghỉ đêm khách sạn onsen truyền thống, mặc yukata và thưởng thức bữa tối kaiseki.', art: 'onsen', meta: ['Suối nước nóng'] },
-    { tag: 'Ngày 5', name: 'Hồ Ashi – Hakone', desc: 'Du thuyền hải tặc trên hồ Ashi, thung lũng núi lửa Owakudani và trứng đen trường thọ.', art: 'boat', meta: ['Du thuyền'] },
-    { tag: 'Ngày 6', name: 'Tokyo hiện đại', desc: 'Chùa Asakusa Kannon, tháp Tokyo Skytree, Hoàng cung, phố Ginza và Akihabara.', art: 'city', meta: ['Mua sắm'] }
+    { tag: 'Ngày 2', name: 'Kyoto nghìn năm', desc: 'Chùa Thanh Thủy Kiyomizu-dera, đền Fushimi Inari với hàng nghìn cổng torii đỏ, phố Gion.', img: 'photo-1578469645742-46cae010e5d4', alt: 'Chùa Kiyomizu-dera và tháp ba tầng ở Kyoto', meta: ['Cố đô Nhật Bản'] },
+    { tag: 'Ngày 3', name: 'Lâu đài Osaka & Dotonbori', desc: 'Lâu đài cổ giữa công viên xanh và khu ẩm thực đường phố sôi động nhất Osaka.', img: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Osaka_castle_7.jpg/960px-Osaka_castle_7.jpg', alt: 'Lâu đài Osaka', credit: { by: 'Syced', lic: 'CC0', url: 'https://commons.wikimedia.org/wiki/File:Osaka_castle_7.jpg' }, meta: ['Ẩm thực đường phố'] },
+    { tag: 'Ngày 4', name: 'Tắm onsen & mặc yukata', desc: 'Nghỉ đêm khách sạn onsen truyền thống, mặc yukata và thưởng thức bữa tối kaiseki.', img: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Outdoor_hot_spring_bath_in_Nigorigo_Onsen.jpg/960px-Outdoor_hot_spring_bath_in_Nigorigo_Onsen.jpg', alt: 'Bể tắm onsen ngoài trời giữa rừng', credit: { by: 'Alpsdake', lic: 'CC BY-SA 4.0', url: 'https://commons.wikimedia.org/wiki/File:Outdoor_hot_spring_bath_in_Nigorigo_Onsen.jpg' }, meta: ['Suối nước nóng'] },
+    { tag: 'Ngày 5', name: 'Hồ Ashi – Hakone', desc: 'Du thuyền hải tặc trên hồ Ashi, thung lũng núi lửa Owakudani và trứng đen trường thọ.', img: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Torii_on_Lake_Ashi_%40_Hakone_Shrine_%2813776878594%29.jpg/960px-Torii_on_Lake_Ashi_%40_Hakone_Shrine_%2813776878594%29.jpg', alt: 'Cổng torii đỏ đứng trên mặt hồ Ashi, Hakone', credit: { by: 'Guilhem Vellut from Annecy, France', lic: 'CC BY 2.0', url: 'https://commons.wikimedia.org/wiki/File:Torii_on_Lake_Ashi_@_Hakone_Shrine_(13776878594).jpg' }, meta: ['Du thuyền'] },
+    { tag: 'Ngày 6', name: 'Tokyo hiện đại', desc: 'Chùa Asakusa Kannon, tháp Tokyo Skytree, Hoàng cung, phố Ginza và Akihabara.', img: 'photo-1540959733332-eab4deabeeaf', alt: 'Ngã tư Shibuya sáng đèn ở Tokyo', meta: ['Mua sắm'] }
   ],
 
   days: [
